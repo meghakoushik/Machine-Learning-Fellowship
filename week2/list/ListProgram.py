@@ -97,7 +97,7 @@ class List:
                 """4. Write a Python program to count the number of strings where the string length is 2 or more and the
                 first and last character are same from a given list of strings."""
 
-                words_list = ['abc', 'xyz', 'aba', '1221']
+                words_list = ['str', 'zyz', 'yba', '1021']
 
                 print("\n first and last character same from list of strings count: ", obj.match_words(words_list))
 

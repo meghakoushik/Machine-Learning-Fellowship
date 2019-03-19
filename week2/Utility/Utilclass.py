@@ -173,7 +173,7 @@ class Util:
         try :
             set_number.remove(45)
 
-        except KeyError :
+        except KeyError:
             return "enter valid index"
         finally :
             return set_number
@@ -302,7 +302,7 @@ class Util:
     def remove_items(self, tuple_number):
         try:
             pos = 2
-            tuple_number = tuple_number[: pos] + tuple_number[pos + 1 :]
+            tuple_number = tuple_number[: pos] + tuple_number[pos + 1:]
             list1 = list(tuple_number)
             list1.remove(pos)
             tuple_number = tuple(list1)
@@ -314,8 +314,8 @@ class Util:
 
     # reverse a tuple
 
-    def Reverse_tuple(self, number) :
-        new_tuple = number[: :-1]
+    def Reverse_tuple(self, number):
+        new_tuple = number[::-1]
         return new_tuple
 
     """---------------------list-----------------------"""
@@ -324,7 +324,7 @@ class Util:
 
     # multiplies all the items in a list
 
-    def multi_list(self, main_list) :
+    def multi_list(self, main_list):
         my_new_list = [i * 5 for i in main_list]
         return my_new_list
 
@@ -332,7 +332,7 @@ class Util:
 
     # smallest number from a list
 
-    def min_list(self, main_list) :
+    def min_list(self, main_list):
         list2 = min(main_list)
         return list2
 
@@ -340,30 +340,30 @@ class Util:
 
     # first and last character are same from a given list of strings
 
-    def match_words(self, words_list) :
+    def match_words(self, words_list):
         count = 0
 
-        for word in words_list :
-            if len(word) > 1 and word[0] == word[-1] :
+        for word in words_list:
+            if len(word) > 1 and word[0] == word[-1]:
                 count += 1
         return count
 
     "5. To sorted in increasing order by the last element in each tuple from a given list of non-empty tuples"
 
-    def last(self, n) :
+    def last(self, n):
         return n[-1]
 
-    def sort(self, Sample_List) :
+    def sort(self, Sample_List):
         return sorted(Sample_List, key=self.last)
 
     "6. Write a Python program to remove duplicates from a list."
 
     # element remove
-    def remove_Duplicates(self, main_list) :
+    def remove_Duplicates(self, main_list):
         list1 = []
-        # list2 = list(my_list)
-        for var in main_list :
-            if main_list.count(var) > 1 :
+
+        for var in main_list:
+            if main_list.count(var) > 1:
                 list1.append(var)
 
         set1 = set(main_list)
@@ -373,17 +373,17 @@ class Util:
 
     # cloning
 
-    def cloning_list(self, main_list) :
+    def cloning_list(self, main_list):
         list_copy = main_list[:]
         return list_copy
 
     "8.program to find the list of words that are longer than n from a given list of words."
 
-    def longer_words(self, n, str) :
+    def longer_words(self, n, str):
         word_len = []
         txt = str.split(" ")
-        for x in txt :
-            if len(x) > n :
+        for x in txt:
+            if len(x) > n:
                 word_len.append(x)
         return word_len
 
@@ -391,19 +391,19 @@ class Util:
 
     # commons member
 
-    def common_member(self, first_set, second_set) :
+    def common_member(self, first_set, second_set):
         set_first = set(first_set)
         set_second = set(second_set)
-        if set_first & set_second :
+        if set_first & set_second:
             return True
-        else :
+        else:
             return False
 
     "10. program to print a specified list after removing the 0th, 4th and 5th elements."
 
     # remove specific element
 
-    def remove_specific_element(self, list1) :
+    def remove_specific_element(self, list1):
         my_list = [x for (i, x) in enumerate(list1) if i not in (0, 4, 5)]
         return my_list
 
@@ -411,7 +411,7 @@ class Util:
 
     # permutations
 
-    def permute(self, list_1) :
+    def permute(self, list_1):
         num = len(list_1)
         result = []
         temp1 = num * [0]
@@ -419,14 +419,14 @@ class Util:
         result.append(list_1)
 
         i = 0
-        while i < num :
-            if temp1[i] < i :
-                if i % 2 == 0 :
+        while i < num:
+            if temp1[i] < i:
+                if i % 2 == 0:
                     tmp = list_1[0]
                     list_1[0] = list_1[i]
                     list_1[i] = tmp
 
-                else :
+                else:
 
                     tmp = list_1[temp1[i]]
                     list_1[temp1[i]] = list_1[i]
