@@ -1,7 +1,7 @@
 from week3.Utility.Utilclass1 import Util
 
 
-class Addition(Util) :
+class Addition(Util):
     obj = Util()
 
     def __init__(self) :
