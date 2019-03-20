@@ -27,7 +27,7 @@ class List:
     print("15. Write a Python program to find common items from two lists.")
     print("16. Write a Python program to split a list based on first character of word.")
     print("17. Write a Python program to remove duplicates from a list of lists.  ")
-    print("0. EXIT")
+    print("0. exit")
 
     while flag:
 
