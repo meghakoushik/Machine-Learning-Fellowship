@@ -150,7 +150,6 @@ class Util:
         setB = {0, 2, 4, 6, 8}
         return setA, setB
 
-    "1. Write a Python program to create an intersection of sets. "
 
     """2. Write a Python program to iteration over sets. """
 
