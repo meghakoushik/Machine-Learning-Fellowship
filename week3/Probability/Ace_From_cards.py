@@ -10,7 +10,7 @@ class Probability(Util):
         self.ace = 4
         self.cards = 52
 
-    def ace_Probability(self) :
+    def ace_Probability(self):
         result = obj.ace_cards(self.ace, self.cards)
         print("\nProbability of ace from deck of cards:", result)
 
