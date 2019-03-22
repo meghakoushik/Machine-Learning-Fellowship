@@ -24,7 +24,7 @@ class Dictionary:
     print("11. Write a Python program to convert a list into a nested dictionary of keys.")
     print("12. Write a Python program to check multiple keys exists in a dictionary")
     print("13. Write a Python program to count number of items in a dictionary value that is a list.")
-    print("0. EXIT")
+    print("0. exit")
 
     while flag:
 
