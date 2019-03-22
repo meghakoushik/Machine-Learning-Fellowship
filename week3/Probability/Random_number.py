@@ -8,7 +8,7 @@ class Random_number:
         self.interval_difference = 6
         self.get_Random_number = 1
 
-    def for_random_number(self):
+    def get_random_number(self):
         num = random.randint(2, 7)
         print("random number is ", num)
         return num
@@ -19,5 +19,5 @@ class Random_number:
 
 
 obj = Random_number()
-num = obj.for_random_number()
+num = obj.get_random_number()
 obj.display(num)
