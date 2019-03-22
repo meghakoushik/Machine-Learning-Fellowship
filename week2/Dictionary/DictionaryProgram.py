@@ -82,7 +82,7 @@ class Dictionary:
                 dict5 = {'first_value': 1, 'second_value': 2, 'third_value': 3, 'fourth_value': 4, 'Fifth_value': 5, 'Sixth_value': 6,
                          'Seventh_value': 7}
 
-                # using Utility obj call del_dict()
+                # using Utility obj1 call del_dict()
                 # return dictionary
 
                 print("\n original dictionary :", dictionary_values)
