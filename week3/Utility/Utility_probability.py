@@ -66,3 +66,24 @@ class Util :
     def NoRainy_Traffic_NoLate(self, not_rainy, not_rainy_with_Traffic, not_rainy_with_Traffic_Nolate) :
         probability = not_rainy * not_rainy_with_Traffic * not_rainy_with_Traffic_Nolate
         return probability
+    "--------------------------------------------------------------------------------------"
+    """6. write a program to find the probability that a woman has
+          cancer if she has a positive mammogram result?"""
+
+    def mammogram_result(self, cancer, no_cancer, test_positive, false_positive):
+
+        Probability = (cancer * test_positive)/(cancer * test_positive) + (no_cancer * false_positive)
+        return Probability
+
+    "---------------------------------------------------------------------------------------"
+    """7.Write a program to find P(90<Y<110)"""
+
+    def calculate(self, prob_value_one, prob_value_two):
+        result = prob_value_two - prob_value_one
+        return result
+    "--------------------------------------------------------------"
+    """9. write a program to find the probability that they will be prescribed pain pills? """
+
+    def prescribed_pain_pills(self, pain_killers, addicted, addict_getting_pills):
+        probability = (addict_getting_pills * pain_killers) / addicted
+        return probability
