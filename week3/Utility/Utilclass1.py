@@ -58,6 +58,3 @@ class Util :
             for column in range(len(first_matrix[ 0 ])) :
                 result[ row ][ column ] += first_matrix[ row ][ column ] * second_matrix[ row ][ column ]
         return result
-
-
-
