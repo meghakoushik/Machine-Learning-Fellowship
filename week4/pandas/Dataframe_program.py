@@ -10,7 +10,7 @@ class Pandas_Programs:
         print("1. display a one-dimensional array-like object containing an array of data using Pandas module.. ")
         print("2. convert a Panda module Series to Python list and it's type. ")
         print("3. Python program to add, subtract, multiple and divide two Pandas Series.")
-        print("4. program to get the powers of an array values element-wise")
+        print("4. Python program to add, subtract, multiple and divide two Pandas Series")
         print("5. display a DataFrame from a specified dictionary data which has the index labels")
         print("6. display a summary of the basic information about a specified Data Frame and its data ")
         print("7. get the first 3 rows of a given DataFrame. Sample Python dictionary  data and list labels")
