@@ -197,7 +197,7 @@ class Util:
     def concatenate_Array(self):
         array_one = np.array([[1, 2, 4], [4, 6, 7]])
         print(array_one)
-        array_two = np.array([ [ 1, 3, 5 ], [ 4, 5, 6 ] ])
+        array_two = np.array([[1, 3, 5], [4, 5, 6]])
         print(array_two)
         result = np.concatenate((array_one, array_two), 1)
         return result
