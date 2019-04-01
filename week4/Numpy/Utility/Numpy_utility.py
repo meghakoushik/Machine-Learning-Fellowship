@@ -37,12 +37,6 @@ class Util:
     """----------------------------------------------------------------------------------"""
     """5. program to create a 2d array with 1 on the border and 0 inside."""
 
-    def array_border(self):
-        values = np.ones((5, 5))
-        print("original array:", values)
-        values[1:-1, 1:-1] = 0
-        return values
-
     def ones_border(self):
         values = np.ones((5, 5))
         print("original array:", values)
