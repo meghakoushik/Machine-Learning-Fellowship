@@ -113,9 +113,9 @@ class Util:
     """-------------------------------------------------------------------------------"""
     """Write a Python program to select the rows where the score is missing, i.e. is NaN"""
 
-    def missing_score(self) :
+    def missing_score(self):
         # df = pd.DataFrame(self.exam_data, index=self.labels)
-        return self.df[ self.df['score'].isnull()]
+        return self.df[self.df['score'].isnull()]
 
     """-------------------------------------------------------------------------------"""
     """Write a Python program to select the rows where number of attempts in the examination is less than 2 and score"""
@@ -137,7 +137,7 @@ class Util:
 
     """-------------------------------------------------------------------------------"""
     """Write a Python program to calculate the mean score for each different student in DataFrame."""
-    def mean_score(self) :
+    def mean_score(self):
         return self.df['score'].mean()
 
     """-------------------------------------------------------------------------------"""
