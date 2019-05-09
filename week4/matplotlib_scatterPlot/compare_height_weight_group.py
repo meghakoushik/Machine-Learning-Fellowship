@@ -27,7 +27,7 @@ class CompareWeightsAndHeights:
                         height1 = list_created(3)
                         print("Weight 2 values:")
                         weight2 = list_created(3)
-                        print("height 1 values:")
+                        print("height 2 values:")
                         height2 = list_created(3)
                         print("Weight 3 values:")
                         weight3 = list_created(3)
